@@ -1,13 +1,14 @@
-# Image Slider Project
+# Image Slider Project - (UM internship)
 
 ## Overview
 
-This project implements an interactive **Image Slider/Carousel** using **HTML, CSS, and JavaScript**. It demonstrates basic front-end development skills by creating a visually appealing and functional component that can display multiple images with smooth transitions.
+This project implements an interactive **Image Slider** using **HTML, CSS, and JavaScript**. It demonstrates basic front-end development skills by creating a visually appealing and functional component that can display multiple images with smooth transitions.
 
 ## Features
 
 - Navigate through images using **Next** and **Previous** buttons.
 - **Automatic slideshow** that transitions every 3 seconds.
+- Automatic slideshow **Pause transition** on **mouse hover**
 - Can navigate through **thumbnails** and **indicators**.
 - Fully **responsive design** that works well on both desktop and mobile devices.
 
