@@ -8,7 +8,7 @@ This project implements an interactive **Image Slider/Carousel** using **HTML, C
 
 - Navigate through images using **Next** and **Previous** buttons.
 - **Automatic slideshow** that transitions every 3 seconds.
-- Smooth **fade-in/out animation** for images.
+-Navigate through **thumbnails**.
 - Fully **responsive design** that works well on both desktop and mobile devices.
 
 ## How to Run the Project
