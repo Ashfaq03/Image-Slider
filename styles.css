@@ -1,0 +1,157 @@
+/* Reset and basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Slider Container */
+.slider-container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  
+}
+/* Slider Wrapper */
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+    
+}
+/* Individual Slide Images */
+.slide {
+  display: none;
+  width: 100%;
+  transition: opacity 1s;
+  object-fit: cover;
+}
+
+/* Active slide */
+.slider .active {
+  display: block;
+  opacity: 1;
+}
+
+
+
+/* Navigation Buttons */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 3px;
+  user-select: none;
+  z-index: 1;
+}
+
+.nav-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  opacity: 0.8;
+}
+
+/* Previous button on the left */
+#prev {
+  left: 10px;
+}
+
+/* Next button on the right */
+#next {
+  right: 10px;
+}
+
+/* Progress Indicators */
+.indicators {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+/* Thumbnails */
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s, border 0.3s;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail.active {
+  border-color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .nav-btn {
+    font-size: 18px;
+    top: 40%;
+  }
+}
+/* Ensure the navigation buttons release on touch */
+.nav-btn:active {
+  transform: scale(0.9); /* Visual feedback */
+}
+
+/* Thumbnails Layout for Small Screens */
+@media (max-width: 768px) {
+  .thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .thumbnail {
+    width: 80px;
+    height: 50px;
+  }
+}
