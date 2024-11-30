@@ -38,6 +38,9 @@ This project implements an interactive **Image Slider** using **HTML, CSS, and J
 - **CSS**: For styling and animation effects.
 - **JavaScript**: For adding interactivity and automatic transitions.
 
+## Project Demo
+[Google drive](https://drive.google.com/drive/folders/12vqG_4RtuzcatqAmCrmrKZQu1kgOMRZJ?usp=drive_link)
+
 ## Author
 Syed Ashfaquddin
 
