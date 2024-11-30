@@ -18,12 +18,14 @@ This project implements an interactive **Image Slider/Carousel** using **HTML, C
 3. Ensure that all images are placed in the `/images` folder to load correctly.
 
 ## File Structure
-Image-Slider/
+/Image-Slider
+|
 ├── index.html
 ├── styles.css
 ├── script.js
 ├── README.md
-└── assets/
+└── /assets
+    |
     ├── cap1.jpg
     ├── cap2.jpg
     ├── ironman1.jpg
