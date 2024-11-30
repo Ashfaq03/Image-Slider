@@ -18,3 +18,30 @@ This project implements an interactive **Image Slider/Carousel** using **HTML, C
 3. Ensure that all images are placed in the `/images` folder to load correctly.
 
 ## File Structure
+Image-Slider/
+├── index.html
+├── styles.css
+├── script.js
+├── README.md
+└── assets/
+    ├── cap1.jpg
+    ├── cap2.jpg
+    ├── ironman1.jpg
+    ├── ironman2.jpg
+    ├── spiderman1.jpg
+    └── thor1.jpg
+
+
+## Technologies Used
+- **HTML**: For the structure of the slider.
+- **CSS**: For styling and animation effects.
+- **JavaScript**: For adding interactivity and automatic transitions.
+
+## Notes
+- Ensure that the images are properly sized to avoid layout issues.
+- Feel free to customize the slider design or add additional features (e.g., thumbnails or indicators).
+
+## Author
+Syed Ashfaquddin
+
+
