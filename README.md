@@ -42,6 +42,6 @@ This project implements an interactive **Image Slider** using **HTML, CSS, and J
 [--Demo images/videos--](https://drive.google.com/drive/folders/12vqG_4RtuzcatqAmCrmrKZQu1kgOMRZJ?usp=drive_link)
 
 ## Author
-[Syed Ashfaquddin](github.com/Ashfaq03)
+[Syed Ashfaquddin](https://github.com/Ashfaq03)
 
 
