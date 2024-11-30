@@ -19,20 +19,18 @@ This project implements an interactive **Image Slider/Carousel** using **HTML, C
 
 ## File Structure
 Image-Slider
-|
+│
 ├── index.html
 ├── styles.css
 ├── script.js
 ├── README.md
 └── assets
-    |
     ├── cap1.jpg
     ├── cap2.jpg
     ├── ironman1.jpg
     ├── ironman2.jpg
     ├── spiderman1.jpg
     └── thor1.jpg
-
 
 ## Technologies Used
 - **HTML**: For the structure of the slider.
