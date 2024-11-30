@@ -8,7 +8,7 @@ This project implements an interactive **Image Slider/Carousel** using **HTML, C
 
 - Navigate through images using **Next** and **Previous** buttons.
 - **Automatic slideshow** that transitions every 3 seconds.
--Navigate through **thumbnails**.
+- Can navigate through **thumbnails** and **indicators**.
 - Fully **responsive design** that works well on both desktop and mobile devices.
 
 ## How to Run the Project
@@ -36,10 +36,6 @@ This project implements an interactive **Image Slider/Carousel** using **HTML, C
 - **HTML**: For the structure of the slider.
 - **CSS**: For styling and animation effects.
 - **JavaScript**: For adding interactivity and automatic transitions.
-
-## Notes
-- Ensure that the images are properly sized to avoid layout issues.
-- Feel free to customize the slider design or add additional features (e.g., thumbnails or indicators).
 
 ## Author
 Syed Ashfaquddin
